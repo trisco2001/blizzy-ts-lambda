@@ -1,0 +1,17 @@
+{
+  "name": "hello-ts-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "node",
+    "typescript",
+    "lambda"
+  ],
+  "author": "Tristan Leonard",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^11.11.0"
+  }
+}
