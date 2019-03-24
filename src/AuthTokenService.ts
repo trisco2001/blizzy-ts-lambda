@@ -27,8 +27,6 @@ export class AuthTokenService {
                 password: this.environment.secret
             }
         }
-        let optionsString = JSON.stringify(options)
-        console.log(`Invoking Axios with ${optionsString}`)
         return axios.post(this.url, null, options)
     }
 }
